@@ -1,0 +1,16 @@
+package fr.iutlittoral;
+
+public class CylindreCreux extends Cylindre {
+	double diametreInterne;
+	
+	public CylindreCreux(String mat, double dens, double haut, double diam, double diamInt) {
+		super(mat, dens, haut, diam);
+		this.diametreInterne = diamInt;
+	}
+	
+	CylindreCreux(CylindreCreux cc) {
+		super(cc);
+		diametreInterne = cc.diametreInterne;
+		
+	}
+}

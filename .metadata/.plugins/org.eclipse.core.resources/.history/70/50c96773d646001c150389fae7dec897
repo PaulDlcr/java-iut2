@@ -1,0 +1,12 @@
+package fr.iutlittoral;
+import java.util.ArrayList;
+
+public class EssaiVolume {
+    
+    public static void main(String[] args) {
+    	Sphere s1 = new Sphere("test", 2, 8);
+        System.out.println(s1.toString());
+        Parallelepipede p1 = new Parallelepipede("verre", 1, 4, 2, 6 );
+        System.out.println(p1.toString());
+    }
+}

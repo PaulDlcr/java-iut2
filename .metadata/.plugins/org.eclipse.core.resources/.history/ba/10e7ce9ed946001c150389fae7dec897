@@ -1,0 +1,18 @@
+package fr.iutlittoral;
+
+public class Cylindre extends Volume {
+	
+
+	double hauteur, diametre;
+	
+	public Cylindre(String mat, double dens, double haut, double diam) {
+		super(mat, dens);
+		this.hauteur = haut;
+		this.diametre = diam;
+	}
+	
+	public Cylindre(Cylindre c) {
+		
+	}
+	
+}

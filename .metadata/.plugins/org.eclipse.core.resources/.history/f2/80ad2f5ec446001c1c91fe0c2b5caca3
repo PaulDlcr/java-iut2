@@ -1,0 +1,8 @@
+package fr.iutlittoral;
+
+public class Parallelepipede extends Volume{
+
+	public Parallelepipede() {
+	}
+
+}

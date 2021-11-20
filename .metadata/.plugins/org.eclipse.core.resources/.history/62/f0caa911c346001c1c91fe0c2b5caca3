@@ -1,0 +1,9 @@
+package fr.iutlittoral;
+
+public class EssaiVolume {
+    Sphere s1 = new Sphere("test", 2, 8);
+
+    public static main(String[] args) {
+        s1.toString();
+    }
+}

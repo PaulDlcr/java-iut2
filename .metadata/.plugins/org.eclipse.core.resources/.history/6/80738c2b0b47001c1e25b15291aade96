@@ -1,0 +1,34 @@
+package fr.iutlittoral;
+
+public class CylindreCreux extends Cylindre {
+	double diametreInterne;
+	
+	public CylindreCreux(String mat, double dens, double haut, double diam, double diamInt) {
+		super(mat, dens, haut, diam);
+		this.diametreInterne = diamInt;
+	}
+	
+	CylindreCreux(CylindreCreux cc) {
+		super(cc);
+		diametreInterne = cc.diametreInterne;
+	}
+
+	@Override
+	public double volume() {
+		return Math.PI * (Math.pow((diametre/2),2) - Math.pow((diametreInterne/2), 2)) * hauteur;
+	}
+
+	@Override
+	public double surface() {
+		// TODO Auto-generated method stub
+		return super.surface();
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+	
+	
+}

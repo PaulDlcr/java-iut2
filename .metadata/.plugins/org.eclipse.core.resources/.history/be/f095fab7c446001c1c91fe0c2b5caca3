@@ -1,0 +1,9 @@
+package fr.iutlittoral;
+
+public class Parallelepipede extends Volume{
+	double longueur, largeur, hauteur;
+	
+	public Parallelepipede(double long, double larg, double haut) {
+	}
+
+}

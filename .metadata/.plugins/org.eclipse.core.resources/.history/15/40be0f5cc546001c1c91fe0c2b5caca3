@@ -1,0 +1,13 @@
+package fr.iutlittoral;
+
+public class Parallelepipede extends Volume{
+	double longueur, largeur, haute	ur;
+	
+	public Parallelepipede(double len, double larg, double haut) {
+		super(mat,dens);
+		this.longueur = len;
+		this.largeur = larg;
+		this.hauteur = haut;
+	}
+
+}

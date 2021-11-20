@@ -1,0 +1,33 @@
+package fr.iutlittoral;
+import java.util.ArrayList;
+import java.util.Random;
+
+public class EssaiVolume {
+    
+    public static void main(String[] args) {
+        ArrayList<String> forme = new ArrayList<String>();
+        Random rand = new Random();
+    	Sphere s1 = new Sphere("Terre", 2, 8);
+    	Parallelepipede p1 = new Parallelepipede("Verre", 1, 4, 2, 6 );
+    	Cylindre c1 = new Cylindre("Fer", 3, 8, 6);
+    	
+        System.out.println(s1.toString());
+        System.out.println(p1.toString());        
+        System.out.println(c1.toString());
+        
+        for (int i = 0; i < 11; i++) {
+        	switch (rand.nextInt(3)) {
+			case value:
+				
+				break;
+
+			default:
+				break;
+			}
+        	
+        	if (rand.nextInt(3) == 1) {
+        		Sphere s1 = new Sphere("Terre", rand.nextDouble(5), rand.nextDouble(20));
+			}
+		}
+    }
+}

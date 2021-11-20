@@ -1,0 +1,9 @@
+package fr.iutlittoral;
+
+public class Parallelepipede extends Volume{
+
+	public Parallelepipede(String mat, double dens) {
+		super(mat, dens);
+	}
+
+}
